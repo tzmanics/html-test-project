@@ -1,5 +1,9 @@
 [[plugins]]
-package = "netlify-plugin-to-all-events"
-  [plugins.inputs]
-  keyword = "toshi"
-  databaseUrl = "https://database.com/v1/projects/1234/db/thingy"
+package = "netlify-plugin-a11y"
+
+  # all inputs are optional, we just show you the defaults below
+    [plugins.inputs]
+
+  # required config
+    checkPaths = ['/'] 
+
